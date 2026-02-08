@@ -68,7 +68,7 @@ public class Loan {
         // Create a Scanner object for keyboard input.
         Scanner stdIn = new Scanner(System.in); 
 
-        System.out.println("Enter the loan, rate, and number of payments: ");
+        System.out.println("Enter the initial loan amount, rate as a decimal, and number of payments seperated by a space: ");
         loanAmount = stdIn.nextDouble();
         rate = stdIn.nextDouble();
         numberOfPayments = stdIn.nextInt();
